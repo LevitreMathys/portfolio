@@ -6,16 +6,14 @@ import Footer from './components/footer';
 
 
 function App() {
-  
-  
 
   return (
     <>
       <Header />
-      <div>
-        <div className="line"></div>
+      <div id="right-line-section">
+        <hr id='line1'/>
         <p>Portfolio</p>
-        <div className="line"></div>
+        <hr id='line2'/>
         <p>2026</p>
       </div>
       <section>

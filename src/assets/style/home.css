@@ -1,7 +1,50 @@
+
+/**********************/
+/* Section principale */
+/**********************/
 section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 72px;
+    min-height: calc(100vh - 50px);
     background-color: #f2f0ef;
 }
 
+
+#right-line-section {
+    position: fixed;
+    top: 10%;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    hr {
+        background: #9a9a9a;
+        border: none;
+        width: 1px;
+        margin: 0;
+    }
+    #line1 {
+        height: 10vh;
+    }
+    #line2 {
+        height: 30vh;
+    }
+    p {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        color: #9a9a9a;
+    }
+}
+
+
+
+/**********************/
+/* Texte de bienvenue */
+/**********************/
 #welcome-section {
     
     text-align: left;
@@ -26,15 +69,12 @@ section {
     }
 }
 
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 72px;
-    min-height: calc(100vh - 50px);
-}
 
 
+
+/*************************/
+/* Présentation visuelle */
+/*************************/
 #img-section {
     position: relative;
     width: 540px;
