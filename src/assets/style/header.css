@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    width: 100vw;
+    font-size: 12px;
+    background-color: #f2f0ef;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
