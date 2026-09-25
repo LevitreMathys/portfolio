@@ -1,6 +1,6 @@
 
 import PictureOfMe from './assets/images/me.png';
-import Circle from './assets/images/circle.png';
+import Circle from './assets/images/Circle.png';
 import Header from './components/header';
 import Footer from './components/footer';
 
