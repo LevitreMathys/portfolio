@@ -1,9 +1,12 @@
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
     display: flex;
     text-align: center;
     justify-content: center;
     height: 50px;
-    width: 100vw;
     font-size: 12px;
     background-color: #f2f0ef;
 }
