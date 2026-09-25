@@ -1,17 +1,13 @@
 
-import './App.css'
 import PictureOfMe from './assets/images/me.png';
 import Circle from './assets/images/circle.png';
 import Header from './components/header';
+import Footer from './components/footer';
 
 
 function App() {
   
-  const footerList = [
-    "Home",
-    "Projects",
-    "Contact"
-  ]
+  
 
   return (
     <>
@@ -32,14 +28,8 @@ function App() {
           <img src={PictureOfMe} id="me" alt="Me" />
         </div>
       </section>
-      <footer>
-        <ul>
-          {footerList.map((item) => (
-            <li key={item}>{item}</li>
-          ))}
-        </ul>
-
-      </footer>
+      <Footer />
+      
     </>
   )
 }
