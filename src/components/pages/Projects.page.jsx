@@ -1,7 +1,9 @@
 function Projects() {
     return (
         <>
-            <p>Je suis une page de projets</p>
+            <section>
+                <p>Je suis une page de projets</p>
+            </section>
         </>
     )
 }

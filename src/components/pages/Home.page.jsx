@@ -1,6 +1,6 @@
 
-import PictureOfMe from './assets/images/me.png';
-import Circle from './assets/images/Circle.png';
+import PictureOfMe from '../../assets/images/me.png';
+import Circle from '../../assets/images/Circle.png';
 
 function Home() {
 
