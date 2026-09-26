@@ -48,7 +48,7 @@ section {
 #welcome-section {
     
     text-align: left;
-
+    width: 40%;
     
     #welcome-message {
         font-weight: bold;
@@ -77,7 +77,7 @@ section {
 /*************************/
 #img-section {
     position: relative;
-    width: 540px;
+    width: 30%;
     height: 845px;
     flex-shrink: 0;
 }
@@ -89,7 +89,7 @@ section {
 #circle {
     width: 540px;
     height: 543px;
-    top: 0;
+    top: 20%;
     left: 0;
 }
 
