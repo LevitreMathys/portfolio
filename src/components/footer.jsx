@@ -1,12 +1,12 @@
 
-function Footer() {
+import { Link } from 'react-router-dom'
 
-    
+function Footer() {
 
     const footerList = {
         "Home": "/",
-        "Projects": "/",
-        "Contact": "/"
+        "Projects": "/projects",
+        "Contact": "/contact"
     }
 
 
@@ -16,7 +16,7 @@ function Footer() {
                 <ul>
                     {Object.entries(footerList).map(([item, way]) => (
                         <li key={item}>
-                            <a href={way}>{item}</a>
+                            <Link to={way}>{item}</Link>
                         </li>
                     ))}
                 </ul>

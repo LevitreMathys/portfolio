@@ -9,6 +9,8 @@ header {
     height: 50px;
     font-size: 12px;
     background-color: #f2f0ef;
+    border-bottom: 1px solid #9a9a9a;
+
 }
 
 #title {
