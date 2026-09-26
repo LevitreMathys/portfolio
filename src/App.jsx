@@ -7,6 +7,8 @@ import Footer from './components/footer';
 
 function App() {
 
+  const actualYear = new Date().getFullYear();
+
   return (
     <>
       <Header />
@@ -14,7 +16,7 @@ function App() {
         <hr id='line1'/>
         <p>Portfolio</p>
         <hr id='line2'/>
-        <p>2026</p>
+        <p>{actualYear}</p>
       </div>
       <section>
         <div id="welcome-section">
